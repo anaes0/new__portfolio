@@ -749,6 +749,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin-top: 30px;
+  margin-bottom: 20px;
   transition: 0.3s ease;
   transition-property: background-color, color;
 }
@@ -790,7 +791,8 @@ p {
   transition: 0.3s ease filter;
 }
 #footer .social-item:hover img {
-  filter: grayscale(0);
+  background-color: yellow;
+  border-radius: 10%;
 }
 #footer p {
   color: white;
