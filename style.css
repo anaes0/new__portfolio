@@ -26,7 +26,7 @@ img {
 }
 p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
@@ -698,6 +698,10 @@ p {
   margin: 0 auto;
   width: 90%;
 }
+#contact .contact-text {
+  padding-bottom: 30px;
+}
+
 #contact .contact-items {
   /* max-width: 400px; */
   width: 100%;
@@ -733,6 +737,24 @@ p {
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 500;
+}
+
+.btn-talk {
+  display: inline-block;
+  padding: 10px 30px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+.btn-talk:hover {
+  color: white;
+  background-color: crimson;
 }
 /*End contact Section */
 
@@ -911,6 +933,7 @@ p {
     text-align: left;
     padding-left: 20px;
   }
+
   /* End contact  */
 }
 /* End Media Query For Tablet */
