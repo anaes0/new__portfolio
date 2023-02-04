@@ -283,6 +283,7 @@ p {
   flex-wrap: wrap;
   margin-top: 50px;
 }
+
 #services .service-item {
   flex-basis: 80%;
   display: flex;
@@ -291,13 +292,25 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
+
+#services .service-design {
+  background-image: url(./img/services/design.jpg);
+}
+
+#services .service-dev {
+  background-image: url(./img/services/dev.jpg);
+}
+
+#services .service-psolving {
+  background-image: url(./img/services/psolving.jpg);
+}
+
 #services .service-item::after {
   content: "";
   position: absolute;
@@ -328,14 +341,14 @@ p {
 
 /* Technologies Section */
 .contenedor-skills {
-  background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)),
+  background: linear-gradient(#bab8b8cc, rgba(33, 16, 16, 0.8)),
     url("img/fondo-skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   background-position: center center;
-  padding: 100px 0;
+  padding: 70px 0;
   text-align: center;
 }
 
@@ -344,9 +357,14 @@ p {
   margin: 30px auto;
 }
 
+.contenedor-skills h3 {
+  font-size: xx-large;
+}
+
 .contenedor-skills .skill .info {
   display: flex;
   justify-content: space-between;
+  font-size: large;
 }
 
 .contenedor-skills .skill .lista {
@@ -355,6 +373,11 @@ p {
   height: 10px;
   width: 10px;
   background-color: #fff;
+}
+
+.contenedor-skills .skill .tech {
+  font-size: large;
+  font-weight: bolder;
 }
 
 .contenedor-skills .skill .barra {
@@ -512,60 +535,6 @@ p {
   }
   100% {
     width: 35%;
-  }
-}
-
-@keyframes progreso7 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@keyframes progreso8 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-@keyframes progreso9 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-@keyframes progreso10 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 85%;
-  }
-}
-
-@keyframes progreso11 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes progreso12 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 90%;
   }
 }
 /* End Technologies section */
