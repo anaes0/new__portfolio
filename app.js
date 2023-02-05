@@ -44,6 +44,11 @@ function seleccionar(link) {
   x.className = "";
 }
 
+//detecto el scrolling para aplicar la animación del la barra de habilidades
+window.onscroll = function () {
+  efectoHabilidades();
+};
+
 //funcion que aplica la animación de la barra de habilidades
 function efectoHabilidades() {
   var skills = document.getElementById("skills");
@@ -58,5 +63,12 @@ function efectoHabilidades() {
     document.getElementById("git").classList.add("barra-progreso4");
     document.getElementById("sql").classList.add("barra-progreso5");
     document.getElementById("php").classList.add("barra-progreso6");
+
+    document.getElementById("wb").classList.add("barra-progreso7");
+    document.getElementById("db").classList.add("barra-progreso8");
+    document.getElementById("tw").classList.add("barra-progreso9");
+    document.getElementById("ps").classList.add("barra-progreso10");
+    document.getElementById("sl").classList.add("barra-progreso11");
+    document.getElementById("cs").classList.add("barra-progreso12");
   }
 }

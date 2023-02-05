@@ -361,14 +361,9 @@ p {
   margin: 30px auto;
 }
 
-.contenedor-skills h3 {
-  font-size: xx-large;
-}
-
 .contenedor-skills .skill .info {
   display: flex;
   justify-content: space-between;
-  font-size: large;
 }
 
 .contenedor-skills .skill .lista {
@@ -440,6 +435,54 @@ p {
   animation: progreso6 2s forwards;
 }
 
+.contenedor-skills .skill .barra .barra-progreso7 {
+  position: absolute;
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  animation: progreso7 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso8 {
+  position: absolute;
+  background-color: #fff;
+  width: 40%;
+  height: 100%;
+  animation: progreso8 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso9 {
+  position: absolute;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  animation: progreso9 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso10 {
+  position: absolute;
+  background-color: #fff;
+  width: 85%;
+  height: 100%;
+  animation: progreso10 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso11 {
+  position: absolute;
+  background-color: #fff;
+  width: 90%;
+  height: 100%;
+  animation: progreso11 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso12 {
+  position: absolute;
+  background-color: #fff;
+  width: 90%;
+  height: 100%;
+  animation: progreso12 2s forwards;
+}
+
 @keyframes progreso1 {
   0% {
     width: 0;
@@ -491,6 +534,60 @@ p {
   }
   100% {
     width: 35%;
+  }
+}
+
+@keyframes progreso7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progreso8 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes progreso9 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes progreso10 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes progreso11 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progreso12 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 /* End Technologies section */
