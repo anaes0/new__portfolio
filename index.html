@@ -22,11 +22,44 @@
               <div class="bar"></div>
             </div>
             <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <li><a href="#services" data-after="Service">Resume</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#about" data-after="About">About</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
+              <li>
+                <a
+                  href="#hero"
+                  data-after="Home"
+                  onclick="seleccionar(this)"
+                  class="seleccionado"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  data-after="Service"
+                  onclick="seleccionar(this)"
+                  >Resume</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  data-after="Projects"
+                  onclick="seleccionar(this)"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="#about" data-after="About" onclick="seleccionar(this)"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  data-after="Contact"
+                  onclick="seleccionar(this)"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -181,14 +214,26 @@
         <div class="all-projects">
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 1</h1>
-              <h2>h2 title</h2>
+              <h1>News Website</h1>
+              <h2>/* Work in progress */</h2>
+
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                Currently developing a responsive website for a project of TU
+                Dublin called CLiC News. Building the Frontend using React and
+                its libraries. Requirements:
+                <br />
+                • Login System.
+                <br />
+                • Flexbox used for responsiveness.
+                <br />
+                • Web accessibility.
+                <br />
+                • Database storing.
+                <br />
+                • Unit testing (React Testing Library).
+                <br />
+                <br />
+                Technologies so far: React |
               </p>
             </div>
             <div class="project-img">
@@ -197,15 +242,31 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 2</h1>
-              <h2>h2 title</h2>
+              <h1>Photography Website</h1>
+              <h2>The Art Of Analog</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                A web application in which film photography will be the central
+                theme in order to promote analog photography. Contains:
+                <br />
+                • Login System: Firebase Authentication (Google as provider).
+                <br />
+                • Remote data source: Google Maps API.
+                <br />
+                • Blog System: CRUD operations implemented.
+                <br />
+                • NonSQL Database: FireStore.
+                <br />• Unit testing (React Testing Library).
+
+                <br />
+                <br />
+                Technologies: React | Google Maps API |
               </p>
+              <a
+                href="https://project-3ebfb.web.app/"
+                target="_blank"
+                class="project-source-btn"
+                >Project link</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project4-finalproject.jpg" alt="img" />
@@ -213,15 +274,33 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 3</h1>
-              <h2>h2 title</h2>
+              <h1>Library</h1>
+              <h2>React AnMar Library</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                A PWA that has multiple pages and uses react router DOM, APIs,
+                and extra React libraries (Formik, Axios, Xml-parser,
+                React-flip-card). Contains:
+                <br />
+                • Clearly defined, consistent, navigation system and forms.
+                <br />
+                • Validated form entries.
+                <br />
+                • Information pulled from one remote data source.
+                <br />
+                • CRUD operations implemented by using local storage.
+                <br />
+                • Enzyme Unit tests.
+                <br />
+
+                <br />
+                Technologies: React | Google Maps API |
               </p>
+              <a
+                href="https://anaes0.github.io/"
+                target="_blank"
+                class="project-source-btn"
+                >Project link</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project3-anmar.jpg" alt="img" />
@@ -229,15 +308,30 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 4</h1>
-              <h2>h2 title</h2>
+              <h1>Travel Website</h1>
+              <h2>Discover Ireland</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                First React project using Routing and React Dom, creating and
+                reusing different components. Web application that contains:
+                <br />
+                • 4 distinct sections of HTML5.
+                <br />
+                • Styles controlled by several external CSS file.
+                <br />
+                • Clearly defined, consistent, navigation system and form.
+                <br />
+                • Information pull from a data source.
+                <br />
+                <br />
+                Technologies: React | Weather API |
               </p>
+
+              <a
+                href="https://github.com/anaes0/myfirst-react-project"
+                target="_blank"
+                class="project-source-btn"
+                >Code Source</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project2-reacttravel.jpg" alt="img" />
@@ -245,15 +339,22 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 5</h1>
-              <h2>h2 title</h2>
+              <h1>Cat Fostering</h1>
+              <h2>Java The Cat</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                Final project for module: Web Design and Client Side Scripting.
+                Responsive website, built in collaboration with:
+                https://github.com/NCI-Marta
+                <br />
+                <br />
+                Technologies: HTML | CSS | JavaScritp |
               </p>
+              <a
+                href="https://anaes0.github.io/WebDesign_Project/"
+                target="_blank"
+                class="project-source-btn"
+                >Project link</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project1-javathecat.jpg" alt="img" />
@@ -261,15 +362,21 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 6</h1>
-              <h2>h2 title</h2>
+              <h1>Weather App</h1>
+              <h2>Weathapp</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                A weather application, using "OpenWeather" API to access current
+                weather data for any location including over 200,000 cities.
+                <br />
+                <br />
+                Technologies: React | Weather API |
               </p>
+              <a
+                href="https://github.com/anaes0/weatherApp/"
+                target="_blank"
+                class="project-source-btn"
+                >Code Source</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project5-weather.jpg" alt="img" />
@@ -277,15 +384,23 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 7</h1>
-              <h2>h2 title</h2>
+              <h1>Library Web</h1>
+              <h2>Ana's Library</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                A library website developed by using the framework CodeIgniter.
+                First project with a login system using PHP and multiple
+                databases. Website deployed successfully to the Web host:
+                000webhost.
+                <br />
+                <br />
+                Technologies used: PHP | CodeIgniter | phpMyAdmin|
               </p>
+              <a
+                href="https://cloudappnci.000webhostapp.com/index.php"
+                target="_blank"
+                class="project-source-btn"
+                >Project link</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project6-php.jpg" alt="img" />
@@ -293,15 +408,21 @@
           </div>
           <div class="project-item">
             <div class="project-info">
-              <h1>Project 8</h1>
-              <h2>Old portfolio</h2>
+              <h1>Old Portfolio</h1>
+              <h2>Ana's Portfolio</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad,
-                iusto cupiditate voluptatum impedit unde rem ipsa distinctio
-                illum quae mollitia ut, accusantium eius odio ducimus illo neque
-                atque libero non sunt harum? Ipsum repellat animi, fugit
-                architecto voluptatum odit et!
+                Initial version of my personal portfolio that aims to showcast
+                personal work and skills.
+                <br />
+                <br />
+                Technologies: HTML | CSS | JavaScript |
               </p>
+              <a
+                href="https://anaes0.github.io/my__portfolio/"
+                target="_blank"
+                class="project-source-btn"
+                >Project link</a
+              >
             </div>
             <div class="project-img">
               <img src="./img/portfolio/project8-oldportfolio.jpg" alt="img" />
@@ -324,16 +445,19 @@
           <h1 class="section-title">About <span>me</span></h1>
           <h2>Front End Developer</h2>
           <p>
-            My name is Ana, currently in a career transition to tech, having
-            just completed a
-            <b>Higher Diploma in Computing Science (Web development) at NCI</b>.
+            Currently in a career transition to tech, having just completed a
+            <b>Higher Diploma in Computing Science (Web development) at NCI</b>,
             I started programming initially as a hobby, where I learned for few
             months the basics of <b>HTML</b>, <b>CSS</b>, and
-            <b>JavaScript</b> before branching out into other technologies such
-            as <b>Java</b>, <b>React</b>, <b>MySQL</b>, <b>PHP</b> and many
-            more, thanks to my NCI studies. I'm an avid learner and hard worker,
-            aspiring toward a career that will allow me to channel my knowledge
-            and appetite for learning through web development.
+            <b>JavaScript</b> using <b>VS Code</b> before branching out into
+            other technologies such as <b>Java</b>, or <b>PHP</b> by using
+            libraries and frameworks such as <b>React</b>, <b>CodeIgniter</b>,
+            and <b>Bootstrap</b>, as well as databases (<b>MySQL</b>), and
+            version control tools like Git and Github, and many more tools such
+            as <b>AWS</b> or <b>Firebase</b>, thanks to my NCI studies. I'm an
+            avid learner and hard worker, aspiring toward a career that will
+            allow me to channel my knowledge and appetite for learning through
+            web development.
           </p>
           <a href="#" class="cta">Download Resume</a>
         </div>
@@ -402,14 +526,20 @@
         <h2>Frontend Developer</h2>
         <div class="social-icon">
           <div class="social-item">
-            <a href="#"><img src="./img/icons/linkedin.png" /></a>
+            <a href="https://www.linkedin.com/in/ana-verdejo/" target="_blank"
+              ><img src="./img/icons/linkedin.png"
+            /></a>
           </div>
           <div class="social-item">
-            <a href="#"><img src="./img/icons/github.png" /></a>
+            <a href="https://github.com/anaes0" target="_blank"
+              ><img src="./img/icons/github.png"
+            /></a>
           </div>
 
           <div class="social-item">
-            <a href="#"><img src="./img/icons/medium.png" /></a>
+            <a href="https://medium.com/@anaes0" target="_blank"
+              ><img src="./img/icons/medium.png"
+            /></a>
           </div>
         </div>
         <p>Copyright © 2020 AnaVG. All rights reserved</p>

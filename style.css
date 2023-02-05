@@ -11,6 +11,7 @@ html {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 .container {
   min-height: 100vh;
@@ -140,6 +141,9 @@ p {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
+  color: crimson;
+}
+#header .nav-list ul .seleccionado {
   color: crimson;
 }
 #header .hamburger {
@@ -341,7 +345,7 @@ p {
 
 /* Technologies Section */
 .contenedor-skills {
-  background: linear-gradient(#bab8b8cc, rgba(33, 16, 16, 0.8)),
+  background: linear-gradient(#a09d9dcc, rgba(33, 16, 16, 0.8)),
     url("img/fondo-skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -434,54 +438,6 @@ p {
   width: 35%;
   height: 100%;
   animation: progreso6 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso7 {
-  position: absolute;
-  background-color: #fff;
-  width: 70%;
-  height: 100%;
-  animation: progreso7 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso8 {
-  position: absolute;
-  background-color: #fff;
-  width: 40%;
-  height: 100%;
-  animation: progreso8 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso9 {
-  position: absolute;
-  background-color: #fff;
-  width: 95%;
-  height: 100%;
-  animation: progreso9 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso10 {
-  position: absolute;
-  background-color: #fff;
-  width: 85%;
-  height: 100%;
-  animation: progreso10 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso11 {
-  position: absolute;
-  background-color: #fff;
-  width: 90%;
-  height: 100%;
-  animation: progreso11 2s forwards;
-}
-
-.contenedor-skills .skill .barra .barra-progreso12 {
-  position: absolute;
-  background-color: #fff;
-  width: 90%;
-  height: 100%;
-  animation: progreso12 2s forwards;
 }
 
 @keyframes progreso1 {
@@ -587,6 +543,23 @@ p {
 }
 #projects .project-info p {
   color: white;
+}
+#projects .project-source-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 15px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+#projects .project-source-btn:hover {
+  color: white;
+  background-color: crimson;
 }
 #projects .project-img {
   flex-basis: 50%;
